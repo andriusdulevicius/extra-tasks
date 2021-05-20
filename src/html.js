@@ -1,6 +1,4 @@
-import hTitle from "./js/main_title.js";
+import hTitle from './js/main_title.js';
 console.log(hTitle());
 
-document.body.insertAdjacentHTML("afterbegin", hTitle());
-
-console.log(document.body);
+document.body.appendChild(hTitle());

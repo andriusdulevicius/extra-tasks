@@ -1,18 +1,19 @@
 {
-  "name": "mariusuzdt",
-  "version": "1.0.0",
-  "description": "uzdt",
-  "main": "index.js",
-  "scripts": {
-    "nodemon": "nodemon app.js",
-    "build": "npx webpack --mode production",
-    "dev": "npx webpack --mode development"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "html-webpack-plugin": "^5.3.1",
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0"
-  }
+    "name": "mariusuzdt",
+    "version": "1.0.0",
+    "description": "uzdt",
+    "main": "index.js",
+    "scripts": {
+        "nodemon": "nodemon app.js",
+        "build": "npx webpack --mode production",
+        "dev": "npx webpack --mode development",
+        "serve": "live-server --open=dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.3.1",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0"
+    }
 }

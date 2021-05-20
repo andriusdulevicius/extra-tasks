@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log('<h1 class="main-title">Hello world !!!</h1>'),document.body.insertAdjacentHTML("afterbegin",'<h1 class="main-title">Hello world !!!</h1>'),console.log(document.body)})();
+(()=>{"use strict";function e(){const e=document.createElement("h1");return e.className="main-title",e.textContent="Hey man pavyko",e}console.log(e()),document.body.appendChild(e())})();
