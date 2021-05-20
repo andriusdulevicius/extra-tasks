@@ -7,12 +7,14 @@
         "nodemon": "nodemon app.js",
         "build": "npx webpack --mode production",
         "dev": "npx webpack --mode development",
-        "serve": "live-server --open=dist"
+        "serve": "live-server --open=dist",
+        "server": "live-server --open=dist"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "html-webpack-plugin": "^5.3.1",
+        "live-server": "^1.2.1",
         "webpack": "^5.37.1",
         "webpack-cli": "^4.7.0"
     }
