@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log('<h1 class="main-title">Hello world !!!</h1>'),document.body.insertAdjacentHTML("afterbegin",'<h1 class="main-title">Hello world !!!</h1>'),console.log(document.body)})();
